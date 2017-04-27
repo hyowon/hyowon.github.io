@@ -43,9 +43,9 @@ function setDebugParam(){
 }
 
 function readDebugParam(){
-  Param.jCount = parseFloat($("#jCount").val());
-  Param.jScale = parseFloat($("#jScale").val());
-  Param.jScaleRandom = parseFloat($("#jScaleRandom").val());
-  Param.jTurb = parseFloat($("#jTurb").val());
-  Param.jSpeed = parseFloat($("#jSpeed").val());
+  Param.jCount = 5;
+  Param.jScale = 4;
+  Param.jScaleRandom = 0;
+  Param.jTurb = 0.05;
+  Param.jSpeed = 0.01;
 }
