@@ -35,7 +35,7 @@ function webGLStart() {
 
   setDebugParam();
   
-  gl.clearColor(0., 0., 0., 0.);
+  gl.clearColor(0.6980, 0.7960, 1., 1.);
   gl.clearDepth(1.);
   gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
   gl.enable(gl.BLEND);
